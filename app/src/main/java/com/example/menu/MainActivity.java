@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Menghubungkan Variabel
-        cv1 = findViewById(R.id.cardView);
+        cv1 = findViewById(R.id.cardView1);
         cv2 = findViewById(R.id.cardView2);
         cv3 = findViewById(R.id.cardView3);
         cv4 = findViewById(R.id.cardView4);
