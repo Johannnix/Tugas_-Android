@@ -24,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/montserrat"
         android:hint="Nama"
         android:inputType="textPersonName"
         android:textSize="16sp"
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/montserrat"
         android:hint="Nomor Induk Kependudukan"
         android:inputType="number"
         android:textSize="16sp"
@@ -48,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/montserrat"
         android:hint="Usia"
         android:inputType="number"
         android:textSize="16sp"
@@ -60,6 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/montserrat"
         android:hint="Alamat"
         android:inputType="text"
         android:textSize="16sp"
@@ -72,6 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/montserrat"
         android:hint="Asal Institusi"
         android:inputType="textCapWords"
         android:textSize="16sp"
@@ -84,6 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Simpan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,6 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text="Nama"
                 tools:ignore="MissingConstraints" />
 
@@ -121,6 +128,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text="NIK"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -130,6 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text="Umur"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -139,6 +148,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text="Alamat"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -149,6 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text="Asal Institusi"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -172,6 +183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=":"
                 tools:ignore="MissingConstraints" />
 
@@ -180,6 +192,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=":"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/titik2_1" />
@@ -189,6 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=":"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/titik2_2" />
@@ -198,6 +212,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=":"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/titik2_3" />
@@ -208,6 +223,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=":"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -230,6 +246,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=""
                 tools:ignore="MissingConstraints" />
 
@@ -238,6 +255,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=""
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_nama" />
@@ -247,6 +265,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=""
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_nik" />
@@ -256,6 +275,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=""
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_umur" />
@@ -266,6 +286,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
                 android:text=""
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
