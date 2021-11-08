@@ -18,11 +18,11 @@ public class FormData extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_data);
 
-        innama = findViewById(R.id.input_nama);
-        innik = findViewById(R.id.input_nik);
-        inumur = findViewById(R.id.input_umur);
-        inalamat = findViewById(R.id.input_alamat);
-        ininstitusi = findViewById(R.id.input_institusi);
+        innama = findViewById(R.id.input_pembeli);
+        innik = findViewById(R.id.input_barang);
+        inumur = findViewById(R.id.input_jumlah);
+        inalamat = findViewById(R.id.input_harga);
+        ininstitusi = findViewById(R.id.input_bayar);
         tvnama = findViewById(R.id.txt_nama);
         tvnik= findViewById(R.id.txt_nik);
         tvumur = findViewById(R.id.txt_umur);

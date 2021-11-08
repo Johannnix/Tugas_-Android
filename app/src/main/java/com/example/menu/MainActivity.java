@@ -30,5 +30,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(send);
             }
         });
+
+        cv3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent send = new Intent(MainActivity.this, Penjualan.class);
+                startActivity(send);
+            }
+        });
     }
 }

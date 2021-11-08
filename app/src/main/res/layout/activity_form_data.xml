@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/input_nama"
+        android:id="@+id/input_pembeli"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <EditText
-        android:id="@+id/input_nik"
+        android:id="@+id/input_barang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,10 +43,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_nama" />
+        app:layout_constraintTop_toBottomOf="@+id/input_pembeli" />
 
     <EditText
-        android:id="@+id/input_umur"
+        android:id="@+id/input_jumlah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -56,10 +56,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_nik" />
+        app:layout_constraintTop_toBottomOf="@+id/input_barang" />
 
     <EditText
-        android:id="@+id/input_alamat"
+        android:id="@+id/input_harga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -69,10 +69,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_umur" />
+        app:layout_constraintTop_toBottomOf="@+id/input_jumlah" />
 
     <EditText
-        android:id="@+id/input_institusi"
+        android:id="@+id/input_bayar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -82,7 +82,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_alamat" />
+        app:layout_constraintTop_toBottomOf="@+id/input_harga" />
 
     <Button
         android:id="@+id/btn_simpan"
@@ -93,7 +93,7 @@
         android:text="Simpan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_institusi"
+        app:layout_constraintTop_toBottomOf="@+id/input_bayar"
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
