@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class Penjualan extends AppCompatActivity {
     EditText innamapel, innamabar, injumlahbar, inharga, inbayar;
-    Button btnproses, btnhapus, btnexit;
+    Button btnproses, btnhitung, btnhapus, btnexit;
     TextView tvtotal ,tvkembali ,tvbonus ,tvket;
 
     @Override
@@ -26,12 +26,15 @@ public class Penjualan extends AppCompatActivity {
         inharga = findViewById(R.id.input_harga);
         inbayar = findViewById(R.id.input_bayar);
         btnproses = findViewById(R.id.proses);
+        btnhitung = findViewById(R.id.btn_hitung);
         btnhapus = findViewById(R.id.reset);
         btnexit = findViewById(R.id.exit);
         tvtotal = findViewById(R.id.txt_total);
         tvkembali = findViewById(R.id.txt_kembali);
         tvbonus = findViewById(R.id.txt_bonus);
         tvket = findViewById(R.id.txt_ket);
+
+        inbayar.setEnabled(false);
 
         btnproses.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,9 +76,27 @@ public class Penjualan extends AppCompatActivity {
             }
         });
 
+        btnhitung.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String jumlahbeli = injumlahbar.getText().toString().trim();
+                String harga = inharga.getText().toString().trim();
+
+                int jb = Integer.parseInt(jumlahbeli);
+                int h = Integer.parseInt(harga);
+                int total = (jb * h);
+
+                tvtotal.setText("Total Belanja : Rp. " + total);
+                inbayar.requestFocus();
+                inbayar.setEnabled(true);
+            }
+        });
+
         btnhapus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                inbayar.setEnabled(false);
+                innamapel.requestFocus();
                 innamapel.setText(" ");
                 innamabar.setText(" ");
                 tvtotal.setText("Total Belanja : Rp. 0");

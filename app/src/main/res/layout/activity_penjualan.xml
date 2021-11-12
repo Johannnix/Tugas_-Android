@@ -78,7 +78,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat"
                 android:gravity="center_vertical"
-                android:text="Harga"
+                android:text="Harga Barang"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -236,10 +236,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="#A2CDCD"
         android:fontFamily="@font/poppins_bold"
         android:text="Proses"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_hitung"
         app:layout_constraintTop_toBottomOf="@+id/kotak1" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -269,6 +271,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat"
                 android:text=""
+                android:textColor="@color/black"
                 tools:ignore="MissingConstraints" />
 
             <TextView
@@ -278,6 +281,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat"
                 android:text=""
+                android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_total" />
 
@@ -288,6 +292,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat"
                 android:text=""
+                android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_kembali" />
 
@@ -298,6 +303,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat"
                 android:text=""
+                android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_bonus" />
 
@@ -320,8 +326,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
+            android:backgroundTint="#F05945"
             android:fontFamily="@font/poppins_bold"
             android:text="Reset Data"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/exit"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -331,11 +339,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:backgroundTint="#D57E7E"
             android:fontFamily="@font/poppins_bold"
             android:text="Keluar"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/reset"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#C6D57E"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Hitung"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/proses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotak1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

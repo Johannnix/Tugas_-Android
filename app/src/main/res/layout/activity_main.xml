@@ -40,14 +40,14 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/kotak">
+                android:background="#EF4F4F">
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat"
-                    android:text="Profile"
+                    android:text=". . . . ."
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -71,7 +71,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/kotak">
+                android:background="#EE9595">
 
                 <TextView
                     android:id="@+id/textView3"
@@ -103,7 +103,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/kotak">
+                android:background="#FFCDA3">
 
                 <TextView
                     android:id="@+id/textView4"
@@ -135,7 +135,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/kotak">
+                android:background="#74C7B8">
 
                 <TextView
                     android:id="@+id/textView5"
