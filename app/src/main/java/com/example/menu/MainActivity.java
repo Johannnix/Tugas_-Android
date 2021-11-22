@@ -23,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
         cv4 = findViewById(R.id.cardView4);
 
         //Aksi Variabel
+        cv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent send = new Intent(MainActivity.this, Profile.class);
+                startActivity(send);
+            }
+        });
+
         cv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
