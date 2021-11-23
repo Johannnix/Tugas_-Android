@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Menu">
-        <activity android:name=".Profile"></activity>
+        <activity
+            android:name=".Referensi"
+            android:exported="false" />
+        <activity android:name=".Profile" />
         <activity android:name=".Penjualan" />
         <activity android:name=".FormData" />
         <activity android:name=".MainActivity">

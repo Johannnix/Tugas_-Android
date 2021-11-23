@@ -46,5 +46,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(send);
             }
         });
+
+        cv4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent send = new Intent(MainActivity.this, Referensi.class);
+                startActivity(send);
+            }
+        });
     }
 }
